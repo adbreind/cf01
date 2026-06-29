@@ -1,11 +1,87 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>My page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lumberville | River Roots, Bright Routes</title>
+    <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    Hello from Cloudflare Pages!
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Lumberville home">
+        <span class="brand-mark">L</span>
+        <span>Lumberville</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="airport.html">Airport</a>
+        <a href="rail-terminal.html">Rail Terminal</a>
+        <a href="market-square.html">Market Square</a>
+        <a href="clean-parks.html">Clean Parks</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img src="assets/lumberville-riverfront.png" alt="Lumberville riverfront with forested hills and main street" />
+        <div class="hero-copy">
+          <p class="eyebrow">Welcome to the bend in the river</p>
+          <h1>River roots, forest air, and a future with excellent directions.</h1>
+          <p>
+            Lumberville is a fictional town with a very real plan: make it easier to arrive,
+            linger, shop local, and keep our parks sparkling for everyone.
+          </p>
+          <div class="button-row">
+            <a class="button" href="market-square.html">Explore the projects</a>
+            <a class="button secondary" href="clean-parks.html">Volunteer</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-grid">
+        <div>
+          <p class="eyebrow">Deep forest, clear purpose</p>
+          <h2>A town improving without losing its bark.</h2>
+        </div>
+        <p>
+          Set between a broad river and miles of woodland, Lumberville is growing carefully.
+          Our improvement plan connects regional travel, downtown gathering places, and
+          community stewardship while keeping the town charming enough to make squirrels file
+          envy reports.
+        </p>
+      </section>
+
+      <section class="section cards" aria-label="Town improvement projects">
+        <article class="card">
+          <img src="assets/airport.png" alt="Modern timber airport terminal surrounded by forest" />
+          <div>
+            <h3>Lumberville International Airport</h3>
+            <p>Expanded regional access with a terminal that feels more lodge than labyrinth.</p>
+            <a href="airport.html">See the airport plan</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/rail-terminal.png" alt="Riverfront rail terminal with a train beside a timber canopy" />
+          <div>
+            <h3>Lumberville Rail Terminal</h3>
+            <p>A riverfront rail hub designed for easier commutes, visits, and weekend escapes.</p>
+            <a href="rail-terminal.html">Visit the rail plan</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/market-square.png" alt="Busy open-air market square with stalls and planters" />
+          <div>
+            <h3>Lumberville Market Square</h3>
+            <p>More shade, more seating, and more reasons to stroll with a pastry.</p>
+            <a href="market-square.html">Tour the square</a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Town of Lumberville Civic Improvements</p>
+      <p>Fictional, friendly, and very committed to good benches.</p>
+    </footer>
   </body>
 </html>
-

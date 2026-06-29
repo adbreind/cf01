@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clean Parks Volunteer Form | Lumberville</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">L</span><span>Lumberville</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="airport.html">Airport</a>
+        <a href="rail-terminal.html">Rail Terminal</a>
+        <a href="market-square.html">Market Square</a>
+        <a class="active" href="clean-parks.html">Clean Parks</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <img src="assets/clean-parks.png" alt="Volunteers cleaning a riverside park trail" />
+        <div>
+          <p class="eyebrow">Volunteer program</p>
+          <h1>Lumberville Clean Parks</h1>
+          <p>
+            Help keep the river trails, picnic groves, and pocket parks bright, welcoming, and
+            blissfully free of mystery wrappers.
+          </p>
+        </div>
+      </section>
+
+      <section class="section form-layout">
+        <div>
+          <h2>Raise your hand for cleaner parks</h2>
+          <p>
+            Tell us a bit about your availability and interests. The Parks Office will follow up
+            with orientation dates, supply pickup details, and the official high-visibility vest
+            fashion forecast.
+          </p>
+        </div>
+
+        <form class="volunteer-form" action="#" method="post">
+          <label>
+            Full name
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Email address
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            Phone number
+            <input type="tel" name="phone" autocomplete="tel" />
+          </label>
+          <label>
+            Neighborhood
+            <input type="text" name="neighborhood" placeholder="Riverbend, Old Mill, North Woods..." />
+          </label>
+          <label>
+            Preferred volunteer activity
+            <select name="activity">
+              <option>Trail cleanup</option>
+              <option>Riverbank litter sweep</option>
+              <option>Native planting day</option>
+              <option>Event setup and check-in</option>
+            </select>
+          </label>
+          <fieldset>
+            <legend>Best times</legend>
+            <label><input type="checkbox" name="time" value="weekday-morning" /> Weekday mornings</label>
+            <label><input type="checkbox" name="time" value="weekday-evening" /> Weekday evenings</label>
+            <label><input type="checkbox" name="time" value="weekend" /> Weekends</label>
+          </fieldset>
+          <label>
+            Notes for the Parks Office
+            <textarea name="notes" rows="5" placeholder="Tell us about group size, accessibility needs, or favorite park."></textarea>
+          </label>
+          <button class="button" type="submit">Submit volunteer interest</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Town of Lumberville Civic Improvements</p>
+      <p><a href="index.html">Back to home</a></p>
+    </footer>
+  </body>
+</html>
